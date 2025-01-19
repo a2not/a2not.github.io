@@ -6,3 +6,6 @@ update:
 
 serve:
   deno task serve
+
+remove-exif:
+  exiftool -all= -overwrite_original assets/*

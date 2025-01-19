@@ -1,4 +1,4 @@
-lang: en
+lang: ja
 
 home:
   welcome: Thoughts, Empirical, Endeavor.
@@ -15,4 +15,4 @@ metas:
   description: a2not's personal blog
   title: "=title"
   image: "=image"
-  lang: en
+  lang: ja
