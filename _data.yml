@@ -2,6 +2,9 @@ lang: en
 
 home:
   welcome: Thoughts, Empirical, Endeavor.
+  # welcome: Head over heels
+  # welcome: This is water, I am water.
+  # welcome: Consistently inconsistent.
 
 menu_links: []
 extra_head: []
