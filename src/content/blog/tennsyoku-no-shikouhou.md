@@ -1,6 +1,6 @@
 ---
 title: 「転職の思考法」を読んだ
-date: 2025-01-06
+pubDate: 2025-01-06
 tags:
   - book
   - non-tech
