@@ -9,6 +9,6 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://astro-etch.pages.dev',
+    site: 'https://a2not.github.io',
     integrations: [mdx(), sitemap(), tailwind(), react()],
 });
