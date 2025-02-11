@@ -1,22 +1,22 @@
 ---
-import { getCollection, getEntry, render } from 'astro:content';
+import { getCollection, getEntry, render } from "astro:content";
 
 import Layout from "../layouts/Layout.astro";
-import Prose from '../components/Prose.astro';
-import FormattedDate from '@/components/FormattedDate.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '@/consts';
+import Prose from "../components/Prose.astro";
+import FormattedDate from "@/components/FormattedDate.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "@/consts";
 
 const entry = await getEntry("info", "intro");
 const { Content } = await render(entry!);
 
 const posts = (await getCollection("blog")).sort(
-  (b, a) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+	(b, a) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
 );
 
 const uniqueTags = [
-  ...new Set(
-    posts.flatMap((post) => post.data.tags).filter((tag) => tag !== undefined)
-  ),
+	...new Set(
+		posts.flatMap((post) => post.data.tags).filter((tag) => tag !== undefined),
+	),
 ].sort();
 ---
 

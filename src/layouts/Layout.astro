@@ -1,12 +1,12 @@
 ---
-import { SEO, type Props as SEOProps } from 'astro-seo';
+import { SEO, type Props as SEOProps } from "astro-seo";
 
 import { SITE_DESCRIPTION, SITE_TITLE } from "@/consts";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 
 interface Props extends SEOProps {
-  locale?: string;
+	locale?: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
