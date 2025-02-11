@@ -17,8 +17,8 @@ const { locale = "ja" } = Astro.props as Props;
 <html lang={locale}>
   <head>
     <!-- Google tag (gtag.js) -->
-    <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-MDNN52QMY5"></script>
-    <script type="text/partytown">
+    <script is:inline type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-MDNN52QMY5"></script>
+    <script is:inline type="text/partytown">
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
