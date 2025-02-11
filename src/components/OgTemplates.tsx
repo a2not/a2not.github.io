@@ -26,6 +26,7 @@ export function HomeOgTemplate() {
 			}}
 		>
 			<img
+				alt="Astro icon"
 				style={{ borderRadius: "12px" }}
 				src={imageDataUrl}
 				width="192"
@@ -68,6 +69,7 @@ export function PostOgTemplate({ title }: { title: string }) {
 				}}
 			>
 				<img
+					alt="Astro icon"
 					style={{ borderRadius: "12px" }}
 					src={imageDataUrl}
 					width="128"
