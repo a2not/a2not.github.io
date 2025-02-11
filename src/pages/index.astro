@@ -1,10 +1,10 @@
 ---
 import { getCollection, getEntry, render } from "astro:content";
 
-import Layout from "../layouts/Layout.astro";
-import Prose from "../components/Prose.astro";
 import FormattedDate from "@/components/FormattedDate.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "@/consts";
+import Prose from "../components/Prose.astro";
+import Layout from "../layouts/Layout.astro";
 
 const entry = await getEntry("info", "intro");
 const { Content } = await render(entry!);

@@ -1,6 +1,6 @@
+import fs from "node:fs/promises";
 import type { APIRoute } from "astro";
 import { satoriAstroOG } from "satori-astro";
-import fs from "node:fs/promises";
 
 import { HomeOgTemplate } from "@/components/OgTemplates";
 

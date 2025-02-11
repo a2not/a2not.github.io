@@ -1,7 +1,7 @@
+import fs from "node:fs/promises";
+import { getCollection } from "astro:content";
 import type { APIRoute } from "astro";
 import { satoriAstroOG } from "satori-astro";
-import { getCollection } from "astro:content";
-import fs from "node:fs/promises";
 
 import { PostOgTemplate } from "@/components/OgTemplates";
 
