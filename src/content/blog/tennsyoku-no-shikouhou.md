@@ -3,7 +3,6 @@ title: 「転職の思考法」を読んだ
 pubDate: 2025-01-06
 tags:
   - book
-  - non-tech
 ---
 
 読んだ。（ISBN-13: 978-4478105559）

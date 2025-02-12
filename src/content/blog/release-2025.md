@@ -3,6 +3,7 @@ title: Take a look back on the recent release
 pubDate: 2025-02-11
 tags:
   - tech
+  - life
 ---
 
 <!-- it's about simplemq btw -->
