@@ -12,7 +12,7 @@ I've recently released a cloud service as beta.
 
 This is the "Pause and Ponder" of that event, for tha last 4 months or so.
 
-## 🏃 Experiences
+## Experiences
 
 The two weeks before the release was deadly. I never want to forget how much of efforts I put in.
 
@@ -23,7 +23,7 @@ The strain presented itself physically in two ways which I've never experienced 
 
 Deadline almost killed me but help came in clutch. Phew!
 
-## 💡 Insights
+## Insights
 
 ### Never multi-task.
 
@@ -49,6 +49,6 @@ Software engineering is fun and exciting, but I might as well want to solve more
 
 What kind of problems specifically? To that question I don't have an answer yet.
 
-## 🎥 The show must go on...
+## The show must go on...
 
 As it must :)
