@@ -18,7 +18,7 @@
 		"@tailwindcss/typography": "^0.5.19",
 		"@types/react": "^19.2.14",
 		"@types/react-dom": "^19.2.3",
-		"astro": "^5.18.0",
+		"astro": "^5.18.1",
 		"astro-seo": "^0.8.4",
 		"react": "^19.2.4",
 		"react-dom": "^19.2.4",
